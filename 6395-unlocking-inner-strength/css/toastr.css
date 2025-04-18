@@ -65,6 +65,7 @@ button.toast-close-button {
   right: 0;
   width: 100%;
 }
+
 .toast-bottom-center {
   bottom: 0;
   right: 0;
@@ -89,8 +90,8 @@ button.toast-close-button {
   right: 12px;
 }
 .toast-bottom-right {
-  right: 12px;
-  bottom: 12px;
+  top: 12px;
+  right: 10px;
 }
 .toast-bottom-left {
   bottom: 12px;
@@ -234,19 +235,5 @@ button.toast-close-button {
   }
   #toast-container > div.rtl {
     padding: 15px 50px 15px 15px;
-  }
-}
-
-@media only screen and (device-width: 320px) and (device-height: 568px) and (orientation: portrait) {
-  .toast-bottom-right {
-    right: 12px; /* Adjust as needed */
-    bottom: 8.5%;
-  }
-}
-/* iPhone SE (Second generation - 375x667) */
-@media only screen and (device-width: 375px) and (device-height: 667px) and (orientation: portrait) {
-  .toast-bottom-right {
-    right: 15px; /* Adjust as needed */
-    bottom: 9.5%;
   }
 }
